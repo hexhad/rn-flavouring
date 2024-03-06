@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FlavouringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FlavouringTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-Flavouring.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Flavouring.a */; };
+		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Flavouring-FlavouringTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Flavouring-FlavouringTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81F113A9BBF4BE38C48542AB /* libPods-Flavouring-FlavouringUat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D3BB9AECCB70940B6512EF /* libPods-Flavouring-FlavouringUat.a */; };
+		93888E7EC96880A88424086F /* libPods-Flavouring-FlavouringDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312DEC7928E7E03AB448ACCC /* libPods-Flavouring-FlavouringDev.a */; };
+		D67EC25E2B98B9EE0096BDA3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D67EC25F2B98B9EE0096BDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D67EC2632B98B9EE0096BDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D67EC2642B98B9EE0096BDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D67EC2702B98BA7D0096BDA3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D67EC2712B98BA7D0096BDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D67EC2752B98BA7D0096BDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D67EC2762B98BA7D0096BDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +47,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Flavouring/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Flavouring/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Flavouring-FlavouringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flavouring-FlavouringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D55B1812B63C97D8958A0BA /* Pods-Flavouring-FlavouringUat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringUat.debug.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat.debug.xcconfig"; sourceTree = "<group>"; };
+		312DEC7928E7E03AB448ACCC /* libPods-Flavouring-FlavouringDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flavouring-FlavouringDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6619C2E303D0B6D87548E4 /* Pods-Flavouring-FlavouringUat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringUat.release.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Flavouring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring.debug.xcconfig"; path = "Target Support Files/Pods-Flavouring/Pods-Flavouring.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Flavouring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring.release.xcconfig"; path = "Target Support Files/Pods-Flavouring/Pods-Flavouring.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Flavouring-FlavouringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringTests.debug.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringTests/Pods-Flavouring-FlavouringTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-Flavouring.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flavouring.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6AD7206669E8775F7B4B9D /* Pods-Flavouring-FlavouringDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringDev.debug.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Flavouring/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Flavouring-FlavouringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringTests.release.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringTests/Pods-Flavouring-FlavouringTests.release.xcconfig"; sourceTree = "<group>"; };
+		A22FE5C1A58A2D5B0EC32289 /* Pods-Flavouring-FlavouringDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flavouring-FlavouringDev.release.xcconfig"; path = "Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev.release.xcconfig"; sourceTree = "<group>"; };
+		D4D3BB9AECCB70940B6512EF /* libPods-Flavouring-FlavouringUat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flavouring-FlavouringUat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67EC26B2B98B9EE0096BDA3 /* FlavouringDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavouringDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67EC26C2B98B9EE0096BDA3 /* FlavouringDEVinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = FlavouringDEVinfo.plist; path = /Users/hashan/Documents/HASHAN/Flavouring/ios/FlavouringDEVinfo.plist; sourceTree = "<absolute>"; };
+		D67EC27D2B98BA7D0096BDA3 /* FlavouringUat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavouringUat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67EC27E2B98BA7D0096BDA3 /* FlavouringUATinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = FlavouringUATinfo.plist; path = /Users/hashan/Documents/HASHAN/Flavouring/ios/FlavouringUATinfo.plist; sourceTree = "<absolute>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,7 +78,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-Flavouring.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC2602B98B9EE0096BDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93888E7EC96880A88424086F /* libPods-Flavouring-FlavouringDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC2722B98BA7D0096BDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F113A9BBF4BE38C48542AB /* libPods-Flavouring-FlavouringUat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-Flavouring.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Flavouring-FlavouringTests.a */,
+				312DEC7928E7E03AB448ACCC /* libPods-Flavouring-FlavouringDev.a */,
+				D4D3BB9AECCB70940B6512EF /* libPods-Flavouring-FlavouringUat.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +158,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D67EC26C2B98B9EE0096BDA3 /* FlavouringDEVinfo.plist */,
+				D67EC27E2B98BA7D0096BDA3 /* FlavouringUATinfo.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +171,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Flavouring.app */,
 				00E356EE1AD99517003FC87E /* FlavouringTests.xctest */,
+				D67EC26B2B98B9EE0096BDA3 /* FlavouringDev.app */,
+				D67EC27D2B98BA7D0096BDA3 /* FlavouringUat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +184,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-Flavouring.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-Flavouring-FlavouringTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-Flavouring-FlavouringTests.release.xcconfig */,
+				6C6AD7206669E8775F7B4B9D /* Pods-Flavouring-FlavouringDev.debug.xcconfig */,
+				A22FE5C1A58A2D5B0EC32289 /* Pods-Flavouring-FlavouringDev.release.xcconfig */,
+				1D55B1812B63C97D8958A0BA /* Pods-Flavouring-FlavouringUat.debug.xcconfig */,
+				3A6619C2E303D0B6D87548E4 /* Pods-Flavouring-FlavouringUat.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,6 +237,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* Flavouring.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D67EC25B2B98B9EE0096BDA3 /* FlavouringDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67EC2682B98B9EE0096BDA3 /* Build configuration list for PBXNativeTarget "FlavouringDev" */;
+			buildPhases = (
+				D67EC25C2B98B9EE0096BDA3 /* [CP] Check Pods Manifest.lock */,
+				D67EC25D2B98B9EE0096BDA3 /* Sources */,
+				D67EC2602B98B9EE0096BDA3 /* Frameworks */,
+				D67EC2622B98B9EE0096BDA3 /* Resources */,
+				D67EC2652B98B9EE0096BDA3 /* Bundle React Native code and images */,
+				D67EC2662B98B9EE0096BDA3 /* [CP] Embed Pods Frameworks */,
+				D67EC2672B98B9EE0096BDA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavouringDev;
+			productName = Flavouring;
+			productReference = D67EC26B2B98B9EE0096BDA3 /* FlavouringDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67EC26D2B98BA7D0096BDA3 /* FlavouringUat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67EC27A2B98BA7D0096BDA3 /* Build configuration list for PBXNativeTarget "FlavouringUat" */;
+			buildPhases = (
+				D67EC26E2B98BA7D0096BDA3 /* [CP] Check Pods Manifest.lock */,
+				D67EC26F2B98BA7D0096BDA3 /* Sources */,
+				D67EC2722B98BA7D0096BDA3 /* Frameworks */,
+				D67EC2742B98BA7D0096BDA3 /* Resources */,
+				D67EC2772B98BA7D0096BDA3 /* Bundle React Native code and images */,
+				D67EC2782B98BA7D0096BDA3 /* [CP] Embed Pods Frameworks */,
+				D67EC2792B98BA7D0096BDA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavouringUat;
+			productName = Flavouring;
+			productReference = D67EC27D2B98BA7D0096BDA3 /* FlavouringUat.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +311,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Flavouring */,
 				00E356ED1AD99517003FC87E /* FlavouringTests */,
+				D67EC25B2B98B9EE0096BDA3 /* FlavouringDev */,
+				D67EC26D2B98BA7D0096BDA3 /* FlavouringUat */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +331,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC2622B98B9EE0096BDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67EC2632B98B9EE0096BDA3 /* LaunchScreen.storyboard in Resources */,
+				D67EC2642B98B9EE0096BDA3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC2742B98BA7D0096BDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67EC2752B98BA7D0096BDA3 /* LaunchScreen.storyboard in Resources */,
+				D67EC2762B98BA7D0096BDA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +449,150 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringTests/Pods-Flavouring-FlavouringTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D67EC25C2B98B9EE0096BDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flavouring-FlavouringDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EC2652B98B9EE0096BDA3 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D67EC2662B98B9EE0096BDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EC2672B98B9EE0096BDA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringDev/Pods-Flavouring-FlavouringDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EC26E2B98BA7D0096BDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flavouring-FlavouringUat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EC2772B98BA7D0096BDA3 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D67EC2782B98BA7D0096BDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EC2792B98BA7D0096BDA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flavouring-FlavouringUat/Pods-Flavouring-FlavouringUat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +644,24 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC25D2B98B9EE0096BDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67EC25E2B98B9EE0096BDA3 /* AppDelegate.mm in Sources */,
+				D67EC25F2B98B9EE0096BDA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67EC26F2B98BA7D0096BDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67EC2702B98BA7D0096BDA3 /* AppDelegate.mm in Sources */,
+				D67EC2712B98BA7D0096BDA3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,10 +848,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -651,14 +916,115 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67EC2692B98B9EE0096BDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6AD7206669E8775F7B4B9D /* Pods-Flavouring-FlavouringDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FlavouringDEVinfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D67EC26A2B98B9EE0096BDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22FE5C1A58A2D5B0EC32289 /* Pods-Flavouring-FlavouringDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FlavouringDEVinfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D67EC27B2B98BA7D0096BDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D55B1812B63C97D8958A0BA /* Pods-Flavouring-FlavouringUat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Uat";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FlavouringUATinfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D67EC27C2B98BA7D0096BDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6619C2E303D0B6D87548E4 /* Pods-Flavouring-FlavouringUat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Uat";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FlavouringUATinfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -688,6 +1054,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67EC2682B98B9EE0096BDA3 /* Build configuration list for PBXNativeTarget "FlavouringDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67EC2692B98B9EE0096BDA3 /* Debug */,
+				D67EC26A2B98B9EE0096BDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67EC27A2B98BA7D0096BDA3 /* Build configuration list for PBXNativeTarget "FlavouringUat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67EC27B2B98BA7D0096BDA3 /* Debug */,
+				D67EC27C2B98BA7D0096BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

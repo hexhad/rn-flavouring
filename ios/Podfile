@@ -26,6 +26,10 @@ if linkage != nil
 end
 
 target 'Flavouring' do
+
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+  pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
+
   config = use_native_modules!
 
   use_react_native!(
@@ -44,6 +48,11 @@ target 'Flavouring' do
     # Pods for testing
   end
 
+  target 'FlavouringDev' do
+  end
+
+  target 'FlavouringUat' do
+  end
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
     react_native_post_install(
