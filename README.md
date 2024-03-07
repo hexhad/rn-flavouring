@@ -86,6 +86,32 @@ android {
 
 ## iOS Configuration
 Modify `Podfile`
+
+### Open code with `Xcode`
+1. create targets by duplicating main app traget in my case `Flavouring`
+![](/img/targets.png)
+
+2. then go to the `schemes` and manage schemes and remove automatically added schemes when duplicated tragets and add `+` icons then automatically `Xcode` will show given duplicated tragets
+![](/img/manage_schemes.png)
+
+3. after finishing that Edit Scheme like this, with my case i have done this and added below line
+```bash
+echo ".env.production" > /tmp/envfile
+```
+* Development Scheme
+![](/img/pre-action-dev.png)
+
+* UAT Scheme
+![](/img/pre-action-uat.png)
+
+* Production Scheme
+![](/img/pre-action-production.png)
+
+4. after those config you will get the schemes like this 
+![](/img/schemes.png)
+
+### After `Xcode` configs do below `Podfile` config
+
 Update your `Podfile` to include the `react-native-config` pod for different targets:
 
 ```ruby
@@ -111,6 +137,17 @@ target 'FlavouringUat' do
 end
 ...
 
+```
+
+### Install Pods
+
+```bash
+npx pod-install ios/
+```
+### or 
+
+```bash
+cd ios && pod install
 ```
 
 ## Integrating Environment Variables in Your App
