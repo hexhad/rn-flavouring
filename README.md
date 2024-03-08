@@ -150,6 +150,23 @@ npx pod-install ios/
 cd ios && pod install
 ```
 
+## Facing issues??
+
+### Installing all the varients upon the same app?
+
+If you have utilized a library such as react-native-rename to rename your React Native project, it's important to also manually update the bundle identifier in Xcode to ensure consistency across your project settings and configurations. Follow the steps below to update the bundle identifier:
+
+1. Open your project in Xcode.
+2. Navigate to the "General" tab by selecting your project's target.
+3. Look for the "Identity" section.
+4. In the "Bundle Identifier" field, enter the new identifier that matches the name you've set with react-native-rename.
+5. Save the changes.
+This step is crucial for maintaining consistency across your iOS project settings, especially when deploying your application to the App Store or integrating with various services that rely on the bundle identifier.
+
+Ex:
+* UAT bundle Identifier
+![](/img/bundle_identifier-uat.png)
+
 ## Integrating Environment Variables in Your App
 Finally, to use your environment variables within your React Native app, import and utilize `Config` from `react-native-config `in your App.js or any other component as needed:
 
