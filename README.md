@@ -1,5 +1,7 @@
 # Configuring Environment Flavors in React Native
 
+![](/img/intro.png)
+
 This guide demonstrates how to configure environment flavors for a React Native project to manage different settings for development, UAT (User Acceptance Testing), and production environments. This setup allows you to easily switch between environments without changing the codebase, a common requirement for apps that need separate configurations for different stages of deployment.
 
 ## Step 1: Install React Native Config
